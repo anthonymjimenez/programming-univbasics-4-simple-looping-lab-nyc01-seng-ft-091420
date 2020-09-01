@@ -17,4 +17,10 @@ def output_array(array)
   end
 end
 
-  
+def return_string_array(array)
+  string = ''
+  array.each do |n|
+    string += n
+  end
+  string
+enden
