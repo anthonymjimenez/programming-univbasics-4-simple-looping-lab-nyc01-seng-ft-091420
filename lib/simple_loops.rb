@@ -23,4 +23,5 @@ def return_string_array(array)
     string += n
   end
   string
-enden
+end
+
