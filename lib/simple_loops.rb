@@ -22,5 +22,5 @@ def return_string_array(array)
   array.each do |n|
     string += n.to_s
   end
-  string
+  string.split(//)
 end
