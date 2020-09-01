@@ -18,9 +18,9 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  string = ''
+  stringArr = []
   array.each do |n|
-    string += n.to_s
+    stringArr.push(n.to_s)
   end
-  string.split(//)
+  stringArr
 end
