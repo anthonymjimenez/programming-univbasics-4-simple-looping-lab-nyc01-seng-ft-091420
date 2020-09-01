@@ -20,7 +20,7 @@ end
 def return_string_array(array)
   string = ''
   array.each do |n|
-    string += n
+    string += n.to_s
   end
   string
 end
